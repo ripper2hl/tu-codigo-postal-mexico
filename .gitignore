@@ -1,0 +1,8 @@
+.bundle
+.sass-cache
+_site
+Gemfile.lock
+node_modules/
+# package.json -> Include this for scraper dependencies
+# fetch-app-data.js -> Include this script
+# package-lock.json -> Optional, but good to include if stable

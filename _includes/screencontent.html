@@ -1,0 +1,71 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<script>
+    var screenshots = [];
+    var hasVideo = false;
+</script>
+
+{% for file in site.static_files %}
+{% if file.path contains 'assets/screenshot/' %}
+<script>
+    screenshots.push("{{ site.github.baseurl }}{{ file.path }}");
+</script>
+{% elsif file.path contains 'assets/videos/' %}
+{% unless file.path contains 'assets/videos/Place-video-files-here.txt' %}
+<script>
+    hasVideo = true;
+    $(function () {
+        $(".iphoneScreen").addClass("hidden");
+        console.log("Video detected, hiding screenshot");
+    });
+</script>
+{% endunless %}
+{% if file.extname == ".mov" or file.extname == ".mp4" %}
+<script>
+    $(function () {
+        $(".videoContainer").removeClass("hidden");
+        $(".screenvideo").append('<source src="{{ site.github.baseurl }}{{ file.path }}" type="video/mp4">');
+    });
+</script>
+{% elsif file.extname == ".ogg" %}
+<script>
+    $(function () {
+        $(".videoContainer").removeClass("hidden");
+        $(".screenvideo").append('<source src="{{ site.github.baseurl }}{{ file.path }}" type="video/ogg">');
+    });
+</script>
+{% elsif file.extname == ".webm" %}
+<script>
+    $(function () {
+        $(".videoContainer").removeClass("hidden");
+        $(".screenvideo").append('<source src="{{ site.github.baseurl }}{{ file.path }}" type="video/webm">');
+    });
+</script>
+{% endif %}
+{% endif %}
+{% endfor %}
+
+<script>
+    $(function () {
+        if (!hasVideo && screenshots.length > 0) {
+            // Sort screenshots to ensure order (screen1, screen2...)
+            screenshots.sort();
+
+            // Show first screenshot immediately
+            $(".iphoneScreen").attr('src', screenshots[0]);
+            $(".iphoneScreen").removeClass("hidden");
+            console.log("Loaded " + screenshots.length + " screenshots.");
+
+            if (screenshots.length > 1) {
+                var index = 0;
+                setInterval(function () {
+                    index = (index + 1) % screenshots.length;
+                    // Simple fade effect
+                    $(".iphoneScreen").fadeOut(400, function () {
+                        $(this).attr('src', screenshots[index]).fadeIn(400);
+                    });
+                }, 3500); // cycle every 3.5 seconds
+            }
+        }
+    });
+</script>

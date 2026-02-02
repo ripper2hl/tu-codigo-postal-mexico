@@ -1,0 +1,127 @@
+# ====================================================
+# Page Meta
+# ====================================================
+page_title: My Awesome App                       # Optional. Defaults to app_name if empty
+
+
+# ====================================================
+# App Info
+# ====================================================
+playstore_link: https://play.google.com/store/apps/details?id=com.example.myapp
+presskit_download_link:                         # Optional. e.g. assets/presskit.zip
+
+app_icon: assets/appicon.png
+app_name: My Awesome App
+app_price: Free
+app_description: A beautifully simple app that helps users get things done faster.
+
+
+# ====================================================
+# Localization & Dynamic Content
+# ====================================================
+price_text: "Free"                              # Text shown instead of price
+changelog_title: "What’s New"
+latest_changes:                                 # Supports markdown or plain text
+  - Initial release
+  - Performance improvements
+  - UI polish
+
+
+# ====================================================
+# Author / Company Info (Footer)
+# ====================================================
+your_name: Your Name or Company
+your_link: https://yourwebsite.com
+your_city: Your City
+email_address: contact@yourdomain.com
+
+linkedin_username:
+linkedin_company:
+facebook_username:
+instagram_username:
+twitter_username:
+github_username:
+youtube_username:
+mastodon_link:
+
+
+# ====================================================
+# Feature List
+# ====================================================
+features:
+
+  - title: Fast & Lightweight
+    description: Optimized for speed and low resource usage.
+    fontawesome_icon_name: bolt
+
+  - title: Clean Interface
+    description: Modern, minimal UI focused on usability.
+    fontawesome_icon_name: mobile-alt
+
+  - title: Offline Ready
+    description: Works even when you’re not connected.
+    fontawesome_icon_name: wifi-slash
+
+  - title: Easy to Configure
+    description: Customize everything from a single config file.
+    fontawesome_icon_name: sliders-h
+
+  - title: Secure by Design
+    description: Built with best practices for user safety.
+    fontawesome_icon_name: lock
+
+  - title: Free to Use
+    description: No hidden costs or subscriptions.
+    fontawesome_icon_name: star
+
+
+# ====================================================
+# Theme Settings
+# ====================================================
+topbar_color: "#000000"
+topbar_transparency: 0.1
+topbar_title_color: "#ffffff"
+
+cover_image: assets/headerimage.png
+cover_overlay_color: "#363b3d"
+cover_overlay_transparency: 0.8
+
+device_color: black                             # Options: blue, black, yellow, coral, white
+
+body_background_color: "#ffffff"
+link_color: "#1d63ea"
+
+app_title_color: "#ffffff"
+app_price_color: "#ffffff"
+app_description_color: "#ffffff"
+
+feature_title_color: "#000000"
+feature_text_color: "#666666"
+
+feature_icons_foreground_color: "#1d63ea"
+feature_icons_background_color: "#e6e6e6"
+
+social_icons_foreground_color: "#666666"
+social_icons_background_color: "#e6e6e6"
+
+footer_text_color: "#666666"
+
+
+####################################################
+### Jekyll Configuration. Do not modify below.   ###
+####################################################
+
+sass:
+  style: :compressed
+
+exclude:
+  - LICENSE
+  - README.md
+  - CNAME
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+markdown: kramdown

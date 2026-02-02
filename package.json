@@ -1,0 +1,27 @@
+{
+  "name": "automatic-playstore-landing-page",
+  "version": "1.0.0",
+  "description": "**Create and deploy an Android app landing page on GitHub Pages in only five minutes.**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ripper2hl/automatic-playstore-landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ripper2hl/automatic-playstore-landing-page/issues"
+  },
+  "homepage": "https://github.com/ripper2hl/automatic-playstore-landing-page#readme",
+  "dependencies": {
+    "download": "^8.0.0",
+    "google-play-scraper": "^10.1.2",
+    "js-yaml": "^4.1.1",
+    "sharp": "^0.34.5"
+  }
+}
