@@ -1,111 +1,109 @@
 # ====================================================
 # Page Meta
 # ====================================================
-page_title: My Awesome App                       # Optional. Defaults to app_name if empty
-
+page_title                            : Códigos Postales para México
+page_description                      : Herramienta rápida para buscar códigos postales con diseño oscuro optimizado.
 
 # ====================================================
 # App Info
 # ====================================================
-playstore_link: https://play.google.com/store/apps/details?id=com.example.myapp
-presskit_download_link:                         # Optional. e.g. assets/presskit.zip
+playstore_link                        : https://play.google.com/store/apps/details?id=com.perales.sepomex&hl=es&gl=mx
+presskit_download_link: https://www.youtube.com/watch?v=BQ1BhqI6NDA # Usamos este espacio para el link del video si el template lo muestra como botón secundario
+youtube_video_id                      : BQ1BhqI6NDA
 
-app_icon: assets/appicon.png
-app_name: My Awesome App
-app_price: Free
-app_description: A beautifully simple app that helps users get things done faster.
-
+app_icon                              : assets/appicon.png
+app_name                              : Códigos Postales para México
+app_price                             : Gratis
+app_description                       : Encuentra códigos postales en todo México con una interfaz oscura y elegante diseñada para tu comodidad visual.
 
 # ====================================================
 # Localization & Dynamic Content
 # ====================================================
-price_text: "Free"                              # Text shown instead of price
-changelog_title: "What’s New"
-latest_changes:                                 # Supports markdown or plain text
-  - Initial release
-  - Performance improvements
-  - UI polish
-
+price_text: "Gratis"
+changelog_title                       : Novedades
+latest_changes                        : 
+  - Optimización para Modo Oscuro
+  - Actualización de base de datos
+  - Rendimiento mejorado
 
 # ====================================================
 # Author / Company Info (Footer)
 # ====================================================
-your_name: Your Name or Company
-your_link: https://yourwebsite.com
-your_city: Your City
-email_address: contact@yourdomain.com
+your_name                             : Israel Perales
+your_link:                            https://israel-perales.com
+your_city:                            México
+email_address:                        israel-perales@outlook.com
 
 linkedin_username:
 linkedin_company:
-facebook_username:
+facebook_username:                    sepomexui
 instagram_username:
 twitter_username:
-github_username:
+github_username:                      ripper2hl
 youtube_username:
 mastodon_link:
-
 
 # ====================================================
 # Feature List
 # ====================================================
 features:
 
-  - title: Fast & Lightweight
-    description: Optimized for speed and low resource usage.
-    fontawesome_icon_name: bolt
+  - title: Búsqueda Inteligente
+    description: Encuentra colonias o códigos postales al instante.
+    fontawesome_icon_name: search
 
-  - title: Clean Interface
-    description: Modern, minimal UI focused on usability.
-    fontawesome_icon_name: mobile-alt
+  - title: Modo Offline
+    description: Consulta la base de datos completa sin necesidad de internet.
+    fontawesome_icon_name: wifi
 
-  - title: Offline Ready
-    description: Works even when you’re not connected.
-    fontawesome_icon_name: wifi-slash
+  - title: Detalles Completos
+    description: Obtén municipio, ciudad, tipo de asentamiento y zona INEGI.
+    fontawesome_icon_name: list-alt
 
-  - title: Easy to Configure
-    description: Customize everything from a single config file.
-    fontawesome_icon_name: sliders-h
+  - title: Cobertura Nacional
+    description: Base de datos oficial y actualizada de todo México.
+    fontawesome_icon_name: map-marked-alt
 
-  - title: Secure by Design
-    description: Built with best practices for user safety.
-    fontawesome_icon_name: lock
+  - title: Interfaz Dark Mode
+    description: Diseñada nativamente en colores oscuros para cuidar tu vista.
+    fontawesome_icon_name: moon
 
-  - title: Free to Use
-    description: No hidden costs or subscriptions.
-    fontawesome_icon_name: star
-
+  - title: Ubicación en Mapa
+    description: Enlace directo para visualizar la colonia en Google Maps.
+    fontawesome_icon_name: map-marker-alt
 
 # ====================================================
 # Theme Settings
 # ====================================================
-topbar_color: "#000000"
-topbar_transparency: 0.1
+# Identidad Visual: Dark Mode (#121212 Background, #628c6c Accent)
+
+topbar_color: "#1e1e1e"               # Slightly lighter dark for header
+topbar_transparency: 1.0
 topbar_title_color: "#ffffff"
 
 cover_image: assets/headerimage.png
-cover_overlay_color: "#363b3d"
-cover_overlay_transparency: 0.8
+cover_overlay_color: "#121212"        # Dark overlay
+cover_overlay_transparency: 0.85
 
-device_color: black                             # Options: blue, black, yellow, coral, white
+device_color: black                   # Options: blue, black, yellow, coral, white
 
-body_background_color: "#ffffff"
-link_color: "#1d63ea"
+body_background_color: "#121212"      # Main Dark Background
+link_color: "#628c6c"                 # Sage Green Accent
 
 app_title_color: "#ffffff"
-app_price_color: "#ffffff"
-app_description_color: "#ffffff"
+app_price_color: "#b0b0b0"
+app_description_color: "#e0e0e0"
 
-feature_title_color: "#000000"
-feature_text_color: "#666666"
+feature_title_color: "#ffffff"
+feature_text_color: "#bbbbbb"
 
-feature_icons_foreground_color: "#1d63ea"
-feature_icons_background_color: "#e6e6e6"
+feature_icons_foreground_color: "#628c6c" # Sage Green Icons
+feature_icons_background_color: "#1e1e1e" # Dark Card Background
 
-social_icons_foreground_color: "#666666"
-social_icons_background_color: "#e6e6e6"
+social_icons_foreground_color: "#bbbbbb"
+social_icons_background_color: "#1e1e1e"
 
 footer_text_color: "#666666"
-
 
 ####################################################
 ### Jekyll Configuration. Do not modify below.   ###
