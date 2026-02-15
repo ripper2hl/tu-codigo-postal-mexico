@@ -607,13 +607,17 @@ footer {
 }
 
 .footerText {
-	color: $footer-text-color;
+	color: #f5f5f5 !important;
 	display: block;
 	line-height: 1.5;
 	width: 100%;
 	text-align: center;
 	padding-top: 70px;
 	padding-bottom: 70px;
+}
+
+.footerText a {
+	color: #f5f5f5 !important;
 }
 
 .footerIcons {

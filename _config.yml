@@ -82,7 +82,7 @@ topbar_color: "#1e1e1e"               # Slightly lighter dark for header
 topbar_transparency: 1.0
 topbar_title_color: "#ffffff"
 
-cover_image: assets/headerimage.png
+cover_image: assets/headerimage.webp
 cover_overlay_color: "#121212"        # Dark overlay
 cover_overlay_transparency: 0.85
 
