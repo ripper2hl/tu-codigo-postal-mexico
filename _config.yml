@@ -1,7 +1,7 @@
 # ====================================================
 # Page Meta
 # ====================================================
-page_title: Tu código postal para México
+page_title: Códigos Postales de México - Búsqueda Rápida y Offline | Tu código postal para México
 page_description                      : Herramienta rápida para buscar códigos postales con diseño oscuro optimizado.
 
 # ====================================================
@@ -14,7 +14,7 @@ youtube_video_id                      : BQ1BhqI6NDA
 app_icon: assets/appicon.webp
 app_name: Tu código postal para México
 app_price: Gratis
-app_description: Encuentra todos los Códigos Postales de México; No afiliada a SEPOMEX o Gobierno
+app_description: Consulta códigos postales, municipios y colonias de todo México al instante y sin internet.
 
 # ====================================================
 # Localization & Dynamic Content
@@ -50,27 +50,27 @@ mastodon_link:
 features:
 
   - title: Búsqueda Inteligente
-    description: Encuentra colonias o códigos postales al instante.
+    description: Escribe una colonia o código y obtén resultados al instante, sin esperas.
     fontawesome_icon_name: search
 
   - title: Modo Offline
-    description: Consulta la base de datos completa sin necesidad de internet.
+    description: Base de datos integrada para consultar CPs en cualquier lugar, sin gastar datos.
     fontawesome_icon_name: wifi
 
   - title: Detalles Completos
-    description: Obtén municipio, ciudad, tipo de asentamiento y zona INEGI.
+    description: Obtén municipio, ciudad, tipo de asentamiento y zona INEGI detallada.
     fontawesome_icon_name: list-alt
 
   - title: Cobertura Nacional
-    description: Base de datos oficial y actualizada de todo México.
+    description: Accede a la lista actualizada de correos y códigos de todo México.
     fontawesome_icon_name: map-marked-alt
 
   - title: Interfaz Dark Mode
-    description: Diseñada nativamente en colores oscuros para cuidar tu vista.
+    description: Diseño oscuro nativo que cuida tu vista y ahorra batería.
     fontawesome_icon_name: moon
 
   - title: Ubicación en Mapa
-    description: Enlace directo para visualizar la colonia en Google Maps.
+    description: Visualiza la ubicación exacta de cualquier colonia en Google Maps con un clic.
     fontawesome_icon_name: map-marker-alt
 
 # ====================================================
