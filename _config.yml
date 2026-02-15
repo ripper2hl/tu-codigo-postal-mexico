@@ -1,27 +1,27 @@
 # ====================================================
 # Page Meta
 # ====================================================
-page_title                            : Códigos Postales para México
+page_title: Tu código postal para México
 page_description                      : Herramienta rápida para buscar códigos postales con diseño oscuro optimizado.
 
 # ====================================================
 # App Info
 # ====================================================
-playstore_link                        : https://play.google.com/store/apps/details?id=com.perales.sepomex&hl=es&gl=mx
+playstore_link: "https://play.google.com/store/apps/details?id=com.perales.sepomex&hl=es&gl=mx"
 presskit_download_link: https://www.youtube.com/watch?v=BQ1BhqI6NDA # Usamos este espacio para el link del video si el template lo muestra como botón secundario
 youtube_video_id                      : BQ1BhqI6NDA
 
-app_icon                              : assets/appicon.png
-app_name                              : Códigos Postales para México
-app_price                             : Gratis
-app_description                       : Encuentra códigos postales en todo México con una interfaz oscura y elegante diseñada para tu comodidad visual.
+app_icon: assets/appicon.webp
+app_name: Tu código postal para México
+app_price: Gratis
+app_description: Encuentra todos los Códigos Postales de México; No afiliada a SEPOMEX o Gobierno
 
 # ====================================================
 # Localization & Dynamic Content
 # ====================================================
 price_text: "Gratis"
-changelog_title                       : Novedades
-latest_changes                        : 
+changelog_title: Novedades
+latest_changes: 
   - Optimización para Modo Oscuro
   - Actualización de base de datos
   - Rendimiento mejorado
@@ -29,7 +29,7 @@ latest_changes                        :
 # ====================================================
 # Author / Company Info (Footer)
 # ====================================================
-your_name                             : Israel Perales
+your_name: Israel Perales
 your_link:                            https://israel-perales.com
 your_city:                            México
 email_address:                        israel-perales@outlook.com

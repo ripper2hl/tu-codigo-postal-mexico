@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="es-MX">
 
 {% include head.html %}
 
@@ -25,7 +25,8 @@
                         </video>
                     </div>
 
-                    <img class="iphoneScreen hidden" src="" alt="">
+                    <img class="iphoneScreen hidden" src="assets/screenshot/screen1.webp"
+                        alt="Captura de pantalla de búsqueda de código postal" loading="lazy">
 
                     {% include screencontent.html %}
 
@@ -41,7 +42,8 @@
                                 </clipPath>
                             </defs>
                         </svg>
-                        <img class="appIconLarge" src="{{ site.app_icon | relative_url }}">
+                        <img class="appIconLarge" src="{{ site.app_icon | relative_url }}"
+                            alt="Icono de la aplicación Tu Código Postal para México">
                     </div>
                     <div class="appNamePriceContainer">
                         <h1 class="appName">
@@ -58,7 +60,7 @@
                     </div>
                     <div class="downloadButtonsContainer">
                         <a class="playStoreLink" href="{{site.playstore_link}}"><img class="playStore"
-                                src="assets/playstore.png"></a>
+                                src="assets/playstore.webp" alt="Descárgalo en Google Play" loading="lazy"></a>
                     </div>
                 </div>
                 {% include features.html %}

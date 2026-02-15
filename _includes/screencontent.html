@@ -6,7 +6,7 @@
 </script>
 
 {% for file in site.static_files %}
-{% if file.path contains 'assets/screenshot/' %}
+{% if file.path contains 'assets/screenshot/' and file.extname == '.webp' %}
 <script>
     screenshots.push("{{ site.github.baseurl }}{{ file.path }}");
 </script>
